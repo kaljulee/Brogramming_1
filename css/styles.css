@@ -1,0 +1,25 @@
+:root {
+  --light: #afeeee;
+  --standard: #40e0d0;
+  --medium: #48d1cc;
+  --dark: #00ced1;
+}
+
+body {
+  background: var(--light);
+}
+
+#box-button {
+  background: var(--dark);
+  border: none;
+  height: 30px;
+  width: 200px;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  background: var(--dark);
+  border: 1px solid var(--medium);
+  position: absolute;
+}
