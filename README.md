@@ -73,4 +73,5 @@ If all that worked, you can go up to the top of the page, hit the green `Code` b
 
 If all THAT worked, then you accidentally added a second brogramming_1 folder!  That is, instead of `atom projects\brogramming_1\`, we have `atom projects\brogramming_1\brogramming_1`.  This happens to me more often than I'll admit.  You can move the inner `brogramming_1` folder up a level so they're not nested, or you can just leave it like this.  
 
-That should get you all set up!  If not, we'll sort it out together later.
+That should get you all set up!  There should be an `index.html` file that you can open in a web browser.  
+If this didn't work, let me know how it didn't, and I'll see where I forgot a step.
