@@ -17,7 +17,6 @@ body {
 
 #box-button {
   background: var(--dark);
-  border: none;
   height: 30px;
   width: 200px;
 }
