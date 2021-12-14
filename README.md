@@ -44,6 +44,33 @@ Next, we'll sign into GitHub using the CLI, and (if everything works right) down
 
 Go back to the 'atom projects' folder.  Hold shift and left-click on the brogramming_1 folder, then pick 'Open PowerShell window here'. 
 ![open_powershell](https://user-images.githubusercontent.com/18056305/146076824-a0df64bf-693e-4c02-b42d-251d3511a802.png)
+
 This will open a terminal window in the brogramming_1 folder.
 ![in_powershell](https://user-images.githubusercontent.com/18056305/146077195-a7191119-993f-4a2f-ab59-090a46fdbeb7.png)
+
 We'll use this to set up git and download this programming project.
+
+use the command `gh auth login`, and select the option GitHub.com
+![gh_auth_login](https://user-images.githubusercontent.com/18056305/146084268-a5c3a97e-eb61-49e0-84b9-ea32bc2aa221.png)
+
+Pick the HTTPS option
+![pick_https](https://user-images.githubusercontent.com/18056305/146084662-a86372d1-fe05-4fa0-956c-26259ac384a6.png)
+
+Reply `Y` to using github credentials
+![pick_github_credentials](https://user-images.githubusercontent.com/18056305/146084814-a4122b3f-e909-4a7e-ae0d-ec2f47594c7f.png)
+
+Pick `Login with a web browser`
+![pick_browser_login](https://user-images.githubusercontent.com/18056305/146084974-d533ab80-e560-4304-b0fe-b2b945264594.png)
+
+Press enter and enter your code in the github website that opens
+![enter_code](https://user-images.githubusercontent.com/18056305/146085030-eb8baeee-42ea-4917-9f10-41f9743ed36a.png)
+
+Hit enter again, and things should look more or less like this
+![success](https://user-images.githubusercontent.com/18056305/146085069-c1e1fc5d-405a-4b24-8a77-8500afaff0fa.png)
+
+If all that worked, you can go up to the top of the page, hit the green `Code` button, pick `GitHub CLI`, and copy the code into the terminal.  This will download the project files.
+![clone](https://user-images.githubusercontent.com/18056305/146086967-2a5291b2-1344-4116-b278-3b46696eca87.png)
+
+If all THAT worked, then you accidentally added a second brogramming_1 folder!  That is, instead of `atom projects\brogramming_1\`, we have `atom projects\brogramming_1\brogramming_1`.  This happens to me more often than I'll admit.  You can move the inner `brogramming_1` folder up a level so they're not nested, or you can just leave it like this.  
+
+That should get you all set up!  If not, we'll sort it out together later.
