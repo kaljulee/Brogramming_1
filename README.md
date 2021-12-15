@@ -1,7 +1,7 @@
 # Brogramming_1
 Intro To Brogramming
 
-This is the git repository for our first programming project!  Here are some things to get started with.
+This is the git repository for our first programming project!  This is primarily about setting up your "environment", or the programs (and settings in those programs) you'll use to code.  Setting up a programming environment can be a confusing and frustrating experience, so I'll try to lay out all the steps and avoid unnecessary tools.
 
 ## Installing a Text Editor
 Life is easier when using a text editor to write code.  There are many, but I'm suggesting Atom for what we're doing.  This is because:
@@ -15,11 +15,17 @@ You can download it here:
 https://atom.io/
 
 ### Step 2: Install Some Atom Packages
-There's some extra stuff we can install into the text editor that makes it easier to both write and fix our code.
+There's some extra stuff we can install into the text editor that make it easier to work with our code.
 The welcome guide panel makes it pretty easy to find the package installer button.
 ![open_installer_button](https://user-images.githubusercontent.com/18056305/145898635-ff00f588-3d52-48a2-bb9d-7aeca0db9087.png)
 
-Atom comes with a bunch of packages already installed, so some of the things in this list might already be installed.  Search for these terms in the installer, and install the package that has uninstall / disable buttons in the image.  Installing these (or these versions) isn't strictly necessary, but the more similar our setups are, the more likely I can answer any questions that come up.
+Atom comes with a bunch of packages, so some of the things in this list might already be installed.  Search for these terms in the installer, and install the package that has uninstall / disable buttons in the image.  Installing these (or these versions) isn't really necessary, but the more similar our setups are, the more likely I can answer any questions that come up.
+
+Here's what information is important, what you can kind of ignore:
+![beautify](https://user-images.githubusercontent.com/18056305/146224314-8e66b650-e099-4149-97c5-30f58f50c7e2.png)
+
+And here's the list of packages to install:
+
 ![beautify](https://user-images.githubusercontent.com/18056305/146071894-bad136b5-6e8d-4bc4-8e28-796125b214e4.png)
 ![console](https://user-images.githubusercontent.com/18056305/146071907-bb348c9a-ab5c-4897-ba05-e13dd98c6991.png)
 ![highlight](https://user-images.githubusercontent.com/18056305/146071922-e1567108-9654-40c5-bc27-4c02903b5e5c.png)
@@ -35,10 +41,9 @@ This is pretty straight-forward, I just put a folder named "atom projects" on my
 
 ### Step 4 Set Up Git (kinda optional)
 It doesn't always feel like it, but git the easiest way for us to all work on a project together.  Figuring out git isn't necessary to determine whether or not you like programming, and we're not doing anything too complicated yet, so copy-pasting text from git files is a perfectly reasonable option at this point.  If you want to set it up, try following these steps:
--Sign up for an account at https://github.com/ .  
--Download and install the GitHub CLI (command-line interface) from https://cli.github.com/ .  
+-Sign up for an account at https://github.com/ .  This is the service that hosts our shared files.
+-Download and install the GitHub CLI (command-line interface) from https://cli.github.com/ .  This makes it a little easier to use GitHub.
 
-The GitHub CLI isn't strictly necessary, but I find it helpful.
 
 Next, we'll sign into GitHub using the CLI, and (if everything works right) download this brogramming project.
 
@@ -73,5 +78,10 @@ If all that worked, you can go up to the top of the page, hit the green `Code` b
 
 If all THAT worked, then you accidentally added a second brogramming_1 folder!  That is, instead of `atom projects\brogramming_1\`, we have `atom projects\brogramming_1\brogramming_1`.  This happens to me more often than I'll admit.  You can move the inner `brogramming_1` folder up a level so they're not nested, or you can just leave it like this.  
 
-That should get you all set up!  There should be an `index.html` file that you can open in a web browser.  
-If this didn't work, let me know how it didn't, and I'll see where I forgot a step.
+Here is my file structure after I fixed it:
+![folder fix](https://user-images.githubusercontent.com/18056305/146225839-1d843b1b-cb7e-470b-a467-13ed29586370.png)
+
+
+That should get you all set up!  There should be an `index.html` file that you can open in a web browser, a JavaScript file, and a CSS file.  
+
+If this didn't work, let me know and I'll see where I forgot a step.
